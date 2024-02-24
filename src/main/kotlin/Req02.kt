@@ -1,11 +1,11 @@
 fun calculateCommission(salesAmount: Double): Double {
-        val commission = salesAmount * 0.04;
-        return commision;
+        val commission = salesAmount * 0.04
+        return commission
 }
 
 fun calculateFinalSalary(baseSalary: Double, commission: Double): Double {
-    val salary = baseSalry + commission;
-    return salary;
+    val salary = baseSalary + commission
+    return salary
 }
 
 fun main() {
