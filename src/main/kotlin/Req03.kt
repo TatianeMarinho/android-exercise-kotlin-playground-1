@@ -1,17 +1,21 @@
 fun calculateYears(birthYear: Int, currentYear: Int): Int {
-    TODO("Use essa função para desenvolver sua lógica")
+   val age = currentYear - birthYear
+    return age
 }
 
 fun calculateMonths(birthYear: Int, currentYear: Int): Int {
-    TODO("Use essa função para desenvolver sua lógica")
+    val age = calculateYears(birthYear, currentYear) * 12
+    return age
 }
 
 fun calculateDays(birthYear: Int, currentYear: Int): Long {
-    TODO("Use essa função para desenvolver sua lógica")
+    val age = (calculateMonths(birthYear, currentYear)).toLong() * 365
+    return age
 }
 
 fun calculateWeeks(birthYear: Int, currentYear: Int): Long {
-    TODO("Use essa função para desenvolver sua lógica")
+    val age = calculateDays(birthYear, currentYear) / 7
+    return age
 }
 
 fun main() {
