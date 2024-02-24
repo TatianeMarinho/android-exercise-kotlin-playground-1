@@ -1,7 +1,14 @@
 fun calculateDiscount(originalPrice: Double): Double {
-    TODO("Use essa função para desenvolver sua lógica")
+    TODO(
+        val value = originalPrice * 0.10
+        println("Total a pagar é $value")
+    )
 }
 
 fun main() {
-    TODO("Use essa função para rodar o codigo principal")
+    TODO(
+        println("Qual o valor a calcular? ")
+        val originalPrice = readline().toDoubleOrNull()
+        calculateDiscount(originalPrice)
+    )
 }
