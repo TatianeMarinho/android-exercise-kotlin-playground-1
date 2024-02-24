@@ -1,9 +1,11 @@
 fun calculateCommission(salesAmount: Double): Double {
-    TODO("Use essa função para desenvolver sua lógica")
+        val commission = salesAmount * 0.04;
+        return commision;
 }
 
 fun calculateFinalSalary(baseSalary: Double, commission: Double): Double {
-    TODO("Use essa função para desenvolver sua lógica")
+    val salary = baseSalry + commission;
+    return salary;
 }
 
 fun main() {
