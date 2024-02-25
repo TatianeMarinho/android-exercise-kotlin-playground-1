@@ -9,7 +9,7 @@ fun calculateMonths(birthYear: Int, currentYear: Int): Int {
 }
 
 fun calculateDays(birthYear: Int, currentYear: Int): Long {
-    val age = (calculateMonths(birthYear, currentYear)).toLong() * 365
+    val age = ((calculateYears(birthYear, currentYear)).toLong() * 12) * 365
     return age
 }
 
