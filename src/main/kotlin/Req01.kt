@@ -1,5 +1,5 @@
 fun calculateDiscount(originalPrice: Double): Double {
-    val value = originalPrice * 0.10
+    val value = originalPrice * 0.9
     return value
 }
 
