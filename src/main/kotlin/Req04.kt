@@ -14,8 +14,12 @@ fun calculateProduct(number1: Double, number2: Double): Double {
 }
 
 fun calculateDivision(number1: Double, number2: Double): Double? {
-    val division = number1 / number2
-    return division
+    if (number2 == 0.0){
+        return null
+    } else {
+        val division = number1 / number2
+        return division
+    }
 }
 
 fun main() {
