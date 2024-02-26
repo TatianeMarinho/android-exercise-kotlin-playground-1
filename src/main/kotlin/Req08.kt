@@ -1,9 +1,21 @@
 fun calculateSumEven(numbers: List<Int>): Int {
-    TODO("Use essa função para desenvolver sua lógica")
+    var sum = 0
+    numbers.forEach{
+        if (it % 2 == 0) {
+            sum += it
+        };
+    }
+    return sum
 }
 
 fun calculateSumOdd(numbers: List<Int>): Int {
-    TODO("Use essa função para desenvolver sua lógica")
+    var sum = 0
+    numbers.forEach{
+        if (it % 2 != 0) {
+            sum += it
+        };
+    }
+    return sum
 }
 
 fun main() {
